@@ -11,6 +11,7 @@ $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $rowCount = $stmt->rowCount();
 $user = $stmt->fetch();
 
+
 try{
     if($rowCount){
         session_start();

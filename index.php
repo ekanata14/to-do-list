@@ -15,11 +15,11 @@
             <form action="sys/login.php" method="post" class="w-75">
                 <div class="mt-3 input-group d-flex flex-column align-items-center">
                     <label for="username" class="mb-3 fs-5">Username</label>
-                    <input type="text" name="username" class="w-100 rounded" style="height: 40px;">
+                    <input type="text" name="username" class="w-100 rounded" style="height: 40px;" required autofocus>
                 </div>
                 <div class="mt-3 input-group d-flex flex-column align-items-center">
                     <label for="password" class="mb-3 fs-5">Password</label>
-                    <input type="password" name="password" class="w-100 rounded" style="height: 40px;">
+                    <input type="password" name="password" class="w-100 rounded" style="height: 40px;" required autofocus>
                 </div>
                 <button type="submit" class="mt-4 btn btn-success fs-6">Login</button>
             </form>
