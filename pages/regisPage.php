@@ -26,7 +26,7 @@
                     <label for="password" class="mb-3 fs-5">Password</label>
                     <input type="password" name="password" class="w-100 rounded" style="height: 40px;">
                 </div>
-                <button type="submit" class="mt-4 btn btn-success fs-6">Register</button>
+                <button type="submit" class="mt-4 btn btn-success fs-6">Register <i class="fa-solid fa-address-card"></i></button>
             </form>
             <a href="../index.php" class="btn btn-warning mt-3">Have an account? <i class="fa-solid fa-user"></i></a>
         </div>
